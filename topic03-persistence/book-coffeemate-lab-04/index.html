@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,148 +89,153 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      3: Data Persistence in Android
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-05-a">
-      Lab-05-a
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="07">
-      07
-    </a>
-    
-    <a class="item" data-tab="08">
-      08
-    </a>
-    
-    <a class="item" data-tab="09">
-      09
-    </a>
-    
-    <a class="item" data-tab="10">
-      10
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          3: Data Persistence in Android 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-05-a">
+            Lab-05-a
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="07">
+            07
+          </a>
+        
+          <a class="item" data-tab="08">
+            08
+          </a>
+        
+          <a class="item" data-tab="09">
+            09
+          </a>
+        
+          <a class="item" data-tab="10">
+            10
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-05-a">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-05-a">
+              <h1>Objectives</h1>
 <p>This lab continues our Case Study <b>CoffeeMate</b> but with a major refactoring of the UI (using a Navigation Drawer) and a more detailed look at the use of Fragments and persistence (through an SQLite Database) in an Android App.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Setup - Starter Code</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Setup - Starter Code</h1>
 <p>As this version of our case study has been substantially refactored to begin with, it&#39;s strongly recommended you download the starter code for this lab here - <a href="archives/CoffeeMate.4.0.Starter.zip">CoffeeMate.4.0.Starter</a>. It contains all the resources you&#39;ll need to complete this lab along with some of the code and features already completed.</p>
 <p>Once you import the <b>CoffeeMate 4.0 Starter</b> Project it should looks as follows:</p>
 <p><img src="img/lab501.png" alt=""></p>
@@ -272,10 +257,10 @@ body
 </ul>
 <p>The following steps will guide you through these requirements, so we&#39;ll start with Splash Screen.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>Adding a Splash Screen</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Adding a Splash Screen</h1>
 <p>First of all, confirm that when you run the starter code you get the following:</p>
 <p><img src="img/coffeemate.0.png" alt=""></p>
 <p>and then</p>
@@ -284,10 +269,10 @@ body
 <p><i><b>Before you move on to the next step, it&#39;s worth taking a quick look at the manifest file to see the changes that have been made to ensure the Splash Screen acts like a &#39;Splash Screen&#39;, and is the first Screen you see when the app launches.</b></i></p>
 <p>It&#39;s also worth testing the app to see the &#39;Favourites&#39; feature working and even delete/update any &#39;Favourite&#39; coffees to see how the app handles an empty list.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>App Refactoring - Our &#39;Add&#39; Option (Part 1)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>App Refactoring - Our &#39;Add&#39; Option (Part 1)</h1>
 <p>Once you&#39;ve properly tested the latest version of CoffeeMate, you&#39;ll see that we only have The &#39;Home&#39; &amp; &#39;View Favourites&#39; implemented (from the starter App). This step will take you through building a new Fragment <b>AddFragment</b> and reusing a lot of the &#39;Add&#39; activity code and resources.</p>
 <p>First, go ahead and create a new (Blank) Fragment called <b>AddFragment</b> in the <i>fragments</i> package with the following options :</p>
 <p> <img src="img/lab502.png" alt=""></p>
@@ -444,10 +429,10 @@ body
 <pre><code class="lang-java">import android.support.v4.app.Fragment;</code></pre>
 <p> in your import statements (as this may throw up another error later on).</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>App Refactoring - Our &#39;Add&#39; Option (Part 2)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>App Refactoring - Our &#39;Add&#39; Option (Part 2)</h1>
 <p>Here&#39;s the code you should have implemented (or something similar) to get the &#39;Add&#39; screen loading</p>
 <pre><code class="lang-java"> fragment = AddFragment.newInstance();
  ft.replace(R.id.homeFrame, fragment);
@@ -469,10 +454,10 @@ body
 <p>We already have all the code we need in our &#39;Add&#39; activity so go ahead and see can you complete this step without referring to the supporting lecture material.</p>
 <p>And don&#39;t forget to remove the &#39;Add&#39; activity (and associated layout) from the project, as we don&#39;t need them anymore.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>App Refactoring - Our &#39;Search&#39; Option (Part 1)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>App Refactoring - Our &#39;Search&#39; Option (Part 1)</h1>
 <p>We&#39;ll take a similar approach with this feature as we did with the add feature - we&#39;ll get the navigation and screen up and running first, and then implement the logic.</p>
 <p>In the previous version of CoffeeMate (Version 3.0) our &#39;Search&#39; feature was implemented via a separate layout in a Search activity and we extended our <b>CoffeeFragment</b> to customise our Search (in a <b>SearchFragment</b>). To maintain our current <b><i>navigation design pattern</i></b> we should really remove our existing &#39;Search&#39; activity and manage everything in another Fragment - so that&#39;s what we&#39;ll do.</p>
 <p>First, we need a new layout for our Search, so either copy/paste one of the existing fragment layouts, or go ahead and create a new one (I copied the <i>fragment_home</i> layout and went from there).</p>
@@ -619,10 +604,10 @@ body
 <p>and</p>
 <p><img src="img/coffeemate.6.png" alt=""></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 1)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 1)</h1>
 <p>This step is similar to our &#39;Add&#39; Fragment implementation but there&#39;s a bit more complexity involved as we need to</p>
 <ul>
 <li>Create a new Fragment (<strong>EditFragment</strong>) (similar to Add)</li>
@@ -839,10 +824,10 @@ getActivity().startActivity(goEdit);
 <p>But you get an error instead??</p>
 <p>Can you try a quick fix to get the app running?</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="07">
-        <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 2)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="07">
+              <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 2)</h1>
 <p>The problem with the previous step was the Main Activity (in out case &#39;Home&#39; must implement the <strong>OnFragmentInteractionListener</strong> interface (for the callbacks) so you can carry out a quick fix like so</p>
 <p><img src="img/lab510.png" alt=""></p>
 <p>choosing to Implement methods.</p>
@@ -956,10 +941,10 @@ public void onCreate(Bundle savedInstanceState)
 }</code></pre>
 <p>The final step is to implement our listeners for the update button and the &#39;toggle&#39;.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="08">
-        <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 3)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="08">
+              <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 3)</h1>
 <p>As we&#39;re using (and replacing) Fragments instead of switching between Activities, we have two options when trying to implement event handling.  We can</p>
 <ul>
 <li>Implement the event handling and listeners &#39;in house&#39; and manage everything inside the Fragment - but this can get a bit tricky when we want to handle more than one event (like our situation)</li>
@@ -1068,10 +1053,10 @@ public void toggle(View v) {
     }</code></pre>
 <p>so have a go at implementing the &#39;update&#39;.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="09">
-        <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 4)</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="09">
+              <h1>App Refactoring - Our &#39;Edit&#39; Option (Part 4)</h1>
 <p>Now, once you&#39;ve tried to confirm that your update and toggle features are working as expected, you&#39;ve probably noticed you have to manually navigate back to the previous screen when you click the update button.</p>
 <p>To improve the user experience somewhat, we can ensure that the user is automatically returned to the previous screen after they&#39;ve selected the update button - no matter which screen they were on. This can be achieved with the following code, so add this to your Fragment and run your app again and see what happens.</p>
 <pre><code>if (getFragmentManager().getBackStackEntryCount() &gt; 0) {    
@@ -1299,10 +1284,10 @@ public void toggle(View v) {
 &lt;/FrameLayout&gt;</code></pre>
 <p>The final step in this lab is to add database support, which we&#39;ll do next.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="10">
-        <h1>App Refactoring - Adding Database Support</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="10">
+              <h1>App Refactoring - Adding Database Support</h1>
 <p>Before we complete this step, there&#39;s a few classes you need to import to help you along. Once you import the necessary Database classes, this step is relatively straight forward - all you have to do is replace the method calls that manages the <strong>coffeeList</strong> with the respective <strong>dbManager</strong> calls.</p>
 <p>First thing to do is download the necessary database classes in the <a href="archives/database.zip">database</a> archive and add them to a new <em><strong>ie.cm.db</strong></em> package in your project.</p>
 <p>Take a few moments to investigate the classes and familiarise yourself with the methods you&#39;ll be using. There are a number of classes you&#39;ll need to modify to add database support to your project, but initially, you need to create an instance of <em><strong>DBManager</strong></em> in <strong>CofeeMateApp.java</strong> and both open/close the database when necessary.</p>
@@ -1353,35 +1338,24 @@ public void toggle(View v) {
 <p>Test again to confirm and go have a coffee!</p>
 <p>Well Done!</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h1>Solution</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h1>Solution</h1>
 <p>As an exercise, try and refactor the Help Option to use a fragment instead of an activity, to adhere to the UI Navigation Design Pattern we&#39;re using.</p>
 <p>This is a solution to the lab:</p>
 <ul>
 <li><a href="archives/CoffeeMate.4.0.Solution.zip">CoffeeMate.4.0.Solution</a></li>
 </ul>
 
+            </div>
+          
+        </div>
       </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -1401,14 +1375,6 @@ public void toggle(View v) {
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -1444,5 +1410,4 @@ public void toggle(View v) {
 
     </script>
   </body>
-
- </html>
+</html>

@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,132 +89,137 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      4: Multithreading & Networking
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-06">
-      Lab-06
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          4: Multithreading & Networking 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-06">
+            Lab-06
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-06">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-06">
+              <h1>Objectives</h1>
 <p>Reintroduce the Donation Android app and refactor it to interact with a donation-web API.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Donation App</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Donation App</h1>
 <p>This is the donation android app as we left it with the Donation.4.0 lab : <a href="archives/Donation.4.0.zip">Donation.4.0</a>.</p>
 <p>If you have completed the last donation android lab, then you can use your own project. If not, use the above archive.</p>
 <h2>Libraries</h2>
@@ -293,10 +278,10 @@ dependencies {
 <p>You may be offered the &#39;Sync Now&#39; button - press it. If not, locate it and press it (it is on the toolbar)</p>
 <p>The project should sync successfully.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>Model - Donation</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Model - Donation</h1>
 <p>The current Donation class needs some minor adjustments. Specifically, we need to include some kind of an id field, as well as some other fields (see below):</p>
 <h2>Donation</h2>
 <pre><code>package ie.app.models;
@@ -329,10 +314,10 @@ public class Donation
 }</code></pre>
 <p>Be aware that refactoring the Donation class will result in related errors in the project so be sure to fix these before moving onto the next step.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>Creating the Service interface</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>Creating the Service interface</h1>
 <p>In the &#39;main&#39; package, introduce this DonationService interface and fix any import errors</p>
 <h1>DonationService</h1>
 <pre><code class="lang-java">public interface DonationService
@@ -355,10 +340,10 @@ public class Donation
 }</code></pre>
 <p>This class will server as a local interface for interacting with the remote service (deployed to heroku).</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>DonationApp</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>DonationApp</h1>
 <p>When our App launches we want to immediately retrieve the list of Donations from the Server. We make this request in our DonationApp application class and as a result this class will require substantial additions. Here is a starter new version:</p>
 <pre><code>package ie.app.main;
 
@@ -451,10 +436,10 @@ public class DonationApp extends Application
 <p>This version sets up a DonationService object - and makes this service object available for the activities. It also introduces a url we should use to access the remote service.</p>
 <p>Using the lecture material and your knowledge gained so far, refactor the above class to use the DonationService object to retrieve a list of all the donations from the server and populate the donations list declared inside the DonationApp Application class.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>Donate</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>Donate</h1>
 <p>This is a new version of the Donate Activity class - with some important omissions (marked below).</p>
 <p>Complete the necessary functionality before moving on.</p>
 <pre><code>package ie.app.activities;
@@ -618,10 +603,10 @@ public class Donate extends Base implements Callback&lt;Donation&gt; {
 }</code></pre>
 <p>Run the app now (make sure the web service is awake and running). You should get the &#39;Donation Contacted Successfully&#39; and/or &#39;Donation Created Successfully&#39; messages. If not, we will need to discover why before proceeding to next steps...</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>Report</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>Report</h1>
 <p>We will take Report step by step this time to gain a better understanding of how the service is accessed.</p>
 <p>First, in Report Activity, bring in these imports:</p>
 <pre><code>import retrofit2.Call;
@@ -719,32 +704,21 @@ import retrofit2.Response;</code></pre>
               );</code></pre>
 <p>but that&#39;s for another day :)</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h1>Solution</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h1>Solution</h1>
 <p>This is the Solution to the lab : <a href="archives/Donation.4.1.zip">Donation.4.1</a>.</p>
 <p>And this is the Solution to CoffeeMate.5.1 (I think it works??!!): <a href="archives/CoffeeMate.5.1.zip">CoffeeMate.5.1</a>.</p>
 
+            </div>
+          
+        </div>
       </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -764,14 +738,6 @@ import retrofit2.Response;</code></pre>
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -807,5 +773,4 @@ import retrofit2.Response;</code></pre>
 
     </script>
   </body>
-
- </html>
+</html>

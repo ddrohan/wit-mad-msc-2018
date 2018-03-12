@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,144 +89,149 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      5: Google Services
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-07">
-      Lab-07
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="07">
-      07
-    </a>
-    
-    <a class="item" data-tab="08">
-      08
-    </a>
-    
-    <a class="item" data-tab="09">
-      09
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          5: Google Services 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-07">
+            Lab-07
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="07">
+            07
+          </a>
+        
+          <a class="item" data-tab="08">
+            08
+          </a>
+        
+          <a class="item" data-tab="09">
+            09
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-07">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-07">
+              <h1>Objectives</h1>
 <p>This lab continues our Case Study <b>CoffeeMate</b> and once again, yet another major refactoring of the app, where we introduce the ability to make API calls to our CoffeeMate Web App using <b>Volley</b> and introduce some basic security using <b>Google Sign-in</b>.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Setup - Starter Code &amp; Configuring Volley</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Setup - Starter Code &amp; Configuring Volley</h1>
 <p>As this lab builds directly on the previous lab, but requires a number of helper classes you can download the starter code for the lab here - <a href="archives/CoffeeMate.5.0.Starter.zip">CoffeeMate.5.0</a>.</p>
 <p>In this lab, you are required to do the following:</p>
 <ul>
@@ -270,10 +255,10 @@ compile &#39;com.google.code.gson:gson:2.4&#39; // for Googles Gson JSON Parser<
 <p><i><b>I would strongly recommend taking some time to have a look at the source code for this starter project - especially the API Calls and how we utilise a &#39;Callback Interface&#39;.</b></i> We&#39;ve also had to refactor our <b>CoffeeFragment</b> slightly, specifically the <b>onCreateView()</b> due to the nature of making network requests and the impact on the UI (already discussed in the Lectures).</p>
 <p>The remainder of this lab involves integrating <b>Google+ Sign-in</b> and using <b>Volley</b> to interact with the Web App.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>Setting Up Google Sign-in</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Setting Up Google Sign-in</h1>
 <p>As previously mentioned, we now want our CoffeeMate App to interact with a sister Web App (<a href="http://coffeemateweb.herokuapp.com">CoffeeMateWeb</a>) so we need <b>Google Sign-in</b> support to allow us to connect to the Web App and Add/Edit/Delete/View Coffees stored on the Server.</p>
 <p>What we want is something like this:</p>
 <p>The user launches the app and (after a Splash Screen) is prompted to login, like so</p>
@@ -305,10 +290,10 @@ compile &#39;com.google.code.gson:gson:2.4&#39; // for Googles Gson JSON Parser<
 </ul>
 <p>When the process completes, <b>Google+ API</b> appears in the list of enabled APIs. To access, select <b>API Manager</b> on the left sidebar menu, then select the <b>Enabled APIs</b> tab.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>Adding a Google Sign-in Screen</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>Adding a Google Sign-in Screen</h1>
 <p>There&#39;s quite a lot of code (relatively speaking) to get this off the ground, so we&#39;ll use this step as more of a &#39;configuration&#39; step, and hopefully once you&#39;ve completed this, you&#39;ll be able to <strong><em>&#39;Go Green&#39;</em></strong> on your own app :-) (Reduce,Reuse,Recycle my code).</p>
 <p>The first thing you need to do is introduce the following variables into your <strong>CoffeeMateApp</strong> application class</p>
 <pre><code>/* Client used to interact with Google APIs. */
@@ -426,10 +411,10 @@ compile &#39;com.google.code.gson:gson:2.4&#39; // for Googles Gson JSON Parser<
     }</code></pre>
 <p>in your <strong>Home</strong> activity.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>Google Integration - Retrieving &#39;My Coffees&#39;</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>Google Integration - Retrieving &#39;My Coffees&#39;</h1>
 <p>At the moment the user is seeing a list of <strong><em>all</em></strong> coffees stored on the server, so let&#39;s make the app a bit more user friendly and download <strong><em>only</em></strong> the users coffees.</p>
 <p>This is actually a very simple step, (and may be done already!) all we need to do is modify our APi call and add the users Google credentials to the request (which we already have) like so:</p>
 <pre><code>CoffeeApi.get(&quot;/coffees/&quot; + app.googleToken);</code></pre>
@@ -439,10 +424,10 @@ compile &#39;com.google.code.gson:gson:2.4&#39; // for Googles Gson JSON Parser<
 <p><img src="img/lab0610.png" alt=""></p>
 <p>You can confirm your own coffees (if you&#39;ve added some already) by visiting the <a href="http://coffeemateweb.herokuapp.com">webapp</a> and sign in with your Google details.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>Google Integration - Adding a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>Google Integration - Adding a Coffee</h1>
 <p>At this stage, we&#39;ve made a few simple <strong>GET</strong> requests on the Server - now let&#39;s make some <strong>POST</strong> Requests and add a coffee to our list.</p>
 <p>The first thing we need to do is update our <strong>CoffeeApi</strong> class and add in a new method to allow us to POST our coffee to the server, so open up your <strong><em>CoffeeApi.java</em></strong> and add the following:</p>
 <pre><code>public static void post(String url,Coffee aCoffee) {
@@ -495,10 +480,10 @@ compile &#39;com.google.code.gson:gson:2.4&#39; // for Googles Gson JSON Parser<
 <p>There&#39;s actually very little to this so if you&#39;ve added the necessary code correctly, you should be able to add a coffee in the same way as in <strong>CoffeeMate.4.0</strong> but this time, the coffee is added to the list of your coffees on the server <strong>NOT</strong> on the device (via the database).</p>
 <p>And don&#39;t worry, the solution is next :)</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>Google Integration - Updating a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>Google Integration - Updating a Coffee</h1>
 <p>Before we make a start at updating a coffee, here is the line of code necessary for adding a coffee (replacing our database insert call)</p>
 <pre><code>CoffeeApi.post(&quot;/coffees/&quot; + app.googleToken,c);</code></pre>
 <p>Unfortunately, updating a coffee isn&#39;t as simple and straightforward as the last step, in that we need to</p>
@@ -1074,10 +1059,10 @@ public void onCreate(Bundle savedInstanceState) {
 <p>You&#39;re probably not seeing anything (or maybe your app even crashed?) and this is (probably) because you haven&#39;t implemented the interface methods correctly (or at all!) and you haven&#39;t allowed for updating the UI with the coffee details <strong>AFTER</strong> the individual coffee details have been retrieved.</p>
 <p>We&#39;ll have a look at the solution in the next step but try and complete it yourself first by referring to how we achieved our goal in our <strong>CoffeeFragment</strong> class (and we briefly discussed it in the lectures).</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="07">
-        <h1>Google Integration - Updating a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="07">
+              <h1>Google Integration - Updating a Coffee</h1>
 <p>As promised, here&#39;s the code necessary for initially retrieving a coffee from the server and displaying it on the Edit Screen</p>
 <pre><code>@Override
 public void setList(List list) {
@@ -1118,20 +1103,20 @@ public void updateUI() {
       }</code></pre>
 <p>Once that&#39;s done you can move onto the next step - Deleting a Coffee.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="08">
-        <h1>Google Integration - Deleting Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="08">
+              <h1>Google Integration - Deleting Coffees</h1>
 <p>As we already have all the necessary code in place from previous versions of CoffeeMate, AND we have a full APi class available to us, this step is very simple - we just need to change our delete method(s) to delete the specific coffee (or multiple coffees) from the server, and not the database, as is currently the case.</p>
 <p>we achieve deleting a single coffee by calling our <strong>CoffeeApi</strong> &#39;delete&#39; method like so</p>
 <pre><code>CoffeeApi.delete(&quot;/coffees/&quot; + app.googleToken +&quot;/&quot; + coffee._id);</code></pre>
 <p>so see if you can work out where this call should go, and what code it should replace?</p>
 <p>We can use the same method call to delete multiple coffees so try and have a go at implementing this feature (which we covered in the lectures).</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="09">
-        <h1>Google Integration - Searching a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="09">
+              <h1>Google Integration - Searching a Coffee</h1>
 <p>At this Stage your CoffeeMate App should be able to View/Add/Delete &amp; Update coffees, and view your favourite coffees (like before), all on the server.</p>
 <p>Now, because we introduced a <strong>SwipeRefreshLayout</strong>, we need to make some modifications to our &#39;Search&#39; option so you need to ensure that your <strong>fragment_search</strong> layout now has the following (around the ListView)</p>
 <pre><code>&lt;android.support.v4.widget.SwipeRefreshLayout     
@@ -1154,34 +1139,23 @@ public void updateUI() {
 setSwipeRefreshLayout();</code></pre>
 <p>Run your app once again and make a few changes on the server and test out the swipe refresh to confirm you&#39;ve completed this lab successfully - Well Done!</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h1>Solution</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h1>Solution</h1>
 <p>This is a solution which uses a Web Service and <b>Volley</b> with <b>Google Sign-in</b> to manage the Coffees in the app:</p>
 <ul>
 <li><a href="archives/CoffeeMate.5.0.Solution.zip">CoffeeMate.5.0</a></li>
 </ul>
 
+            </div>
+          
+        </div>
       </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -1201,14 +1175,6 @@ setSwipeRefreshLayout();</code></pre>
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -1244,5 +1210,4 @@ setSwipeRefreshLayout();</code></pre>
 
     </script>
   </body>
-
- </html>
+</html>

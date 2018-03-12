@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,130 +89,135 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      2: UI Design & App Structure
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-04">
-      Lab-04
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="07">
-      07
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          2: UI Design & App Structure 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-04">
+            Lab-04
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="07">
+            07
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-04">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-04">
+              <h1>Objectives</h1>
 <p>In this Lab, you will continue to refactor our CoffeeMate Case Study, this version is called <b>CoffeeMate.3.0</b>. We will build on the previous lab and add in more new features and UI Design. In this version we will add in a few more activities and some extra layouts. On completion of this lab you&#39;ll be able to</p>
 <ul>
 <li><p>use multiple Fragments in different Activities</p>
@@ -245,10 +230,10 @@ body
 </li>
 </ul>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Setup - Starter Code</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Setup - Starter Code</h1>
 <p>As with the previous lab, you can download some starter code for this lab here - <a href="archives/CoffeeMate.3.0.Starter.zip">CoffeeMate.3.0.Starter</a>. It contains all the resources you&#39;ll need to complete this lab along with some of the code.</p>
 <p>Once you open the <b>CoffeeMate 3.0 Starter</b> Project in Android Studio it should looks as follows:</p>
 <p><img src="img/starter.3.png" alt=""></p>
@@ -262,10 +247,10 @@ body
 </ul>
 <p>The following steps will guide you through these requirements, so we&#39;ll start with refactoring the necessary classes.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>CoffeeMate 3.0 - A First Look</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>CoffeeMate 3.0 - A First Look</h1>
 <p>When we&#39;re finsihed this lab, we&#39;ll be able to display the users Favourite coffees and apply a filter to the list of coffees so the user can search on a coffee name or type, or both. If you&#39;ve run the starter code (and it&#39;s recommended you do) you&#39;ll see that the &#39;Search&#39; &amp; &#39;Favourites&#39; buttons are working, but not functioning properly - we&#39;re not seeing any refined list of coffees.</p>
 <p> <img src="img/lab0402a.png" alt=""> <img src="img/lab0403a.png" alt=""></p>
 <p>Furthermore, there&#39;s nothing to select from the Spinner (second screenshot above) so this lab is all about refactoring existing classes to get these features working.</p>
@@ -343,10 +328,10 @@ public class Home extends Base {
     }
 }</code></pre>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>Reusing Fragments - &#39;Search&#39; &amp; Favourites&#39;</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>Reusing Fragments - &#39;Search&#39; &amp; Favourites&#39;</h1>
 <p>If you recall in <b><i>CoffeeMate 2.0</i></b> we used a <b><i>Fragment</i></b> to display our list of coffees inside our Home Screen. A Fragments main purpose is to be <u><i>reused</i></u> so we can use our existing Fragment in both our Search &amp; Favourites Screens.</p>
 <h1>Search &amp; Favourites Screens</h1>
 <p>The first thing we&#39;ll do is add the Fragment to our <b>Search.java</b> and <b>Favourites.java</b> Activity classes. This is pretty staright forward as we have already done this in our <b>Home.java</b> in <b><i>CoffeeMate 2.0</i></b>.</p>
@@ -365,10 +350,10 @@ public class Home extends Base {
 <p>Obviously, our Favourites isn&#39;t filtered to show just &#39;Favourite Coffees&#39; (we&#39;ll get to that later), but this does really illustrate the benefits of using Fragments when we can.</p>
 <p>The next step is introducing the Filter so the user can view their Favourite Coffees (and eventually search).</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>Reusing Fragments - Filtering Favourite Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>Reusing Fragments - Filtering Favourite Coffees</h1>
 <p>As mentioned in the Lectures, a <i>ListView</i> supports filtering of elements via its adapter. In this step we will associate our custom filter (<b>CoffeeFilter.java</b>) with our <i>CoffeeFragment</i> so that we have the ability to filter this list whatever way we want, on any screen we want.</p>
 <h1>Our Custom Filter - <b>CoffeeFilter.java</b></h1>
 <p>First of all, familiarise yourself with the (already supplied) <i>CoffeeFilter</i> class. Pay particular attention to the two methods that had to be implemented to actually filter the data and then &#39;publish&#39; the results and make sure you understand what&#39;s going on.</p>
@@ -395,10 +380,10 @@ public class Home extends Base {
 <p>Hint : You&#39;ll be focusing on the &#39;deleteCoffees() method and having to &#39;filter&#39; again. (Or you can always check the notes!)</p>
 <p>Next we&#39;ll look at searching our coffees by name and/or type.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>Reusing Fragments - Searching Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>Reusing Fragments - Searching Coffees</h1>
 <p>We now have a Fragment that has filtering capabilities so we use these to search our list of coffees and refine the list based on either the coffees name, it&#39;s type, or both. To achieve this, we&#39;ll subclass our existing <b><i>CoffeeFragment</i></b> and create new class called <b><i>SearchFragment</i></b> and associate this Fragment with our <b>Search.java</b> Activity class.</p>
 <h1>SearchFragment.java</h1>
 <p>Have a quick look at the existing <b><i>SearchFragment</i></b> class:</p>
@@ -447,10 +432,10 @@ public class Home extends Base {
 <p><img src="img/lab0408.png" alt=""></p>
 <p>The last step is to add the listeners for the <b><i>Spinner</i></b> and <b><i>EditText</i></b> widgets to filter the list on the users selections.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>Reusing Fragments - Adding Event Handlers</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>Reusing Fragments - Adding Event Handlers</h1>
 <p>At the moment, if the user types in some text or selects an option from the Spinner on the Search screen, nothings happens as there&#39;s no code attached to these types of events. This step involves implementing the necessary interfaces to complete the lab.</p>
 <p>If you haven&#39;t been doing so already, you should definitely make use of the Android Studio features to speed up this process, so all we will be left with is writing the specific code for what we want to happen.</p>
 <h1>Handling the Spinner with the <u>OnItemSelectedListener</u> interface</h1>
@@ -525,10 +510,10 @@ public class Home extends Base {
 <p><img src="img/lab0410.png" alt=""></p>
 <p><img src="img/lab0411.png" alt=""></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="07">
-        <h1>The Application Object</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="07">
+              <h1>The Application Object</h1>
 <p>In order to keep our application design coherent, we now bring in an &#39;Application&#39; object.</p>
 <p>Create a new package called &#39;ie.cm.main&#39; and incorporate this class here:</p>
 <pre><code class="lang-java">package ie.cm.main;
@@ -583,10 +568,10 @@ public class Base extends Activity {
 app.coffeeList.add(c);</code></pre>
 <p>See if you can refactor the rest of the affected classes.....</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h2>Solution</h2>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h2>Solution</h2>
 <p>This is a solution to the lab:</p>
 <ul>
 <li><a href="archives/CoffeeMate.3.0.Solution.zip">CoffeeMate.3.0.Solution</a></li>
@@ -596,25 +581,14 @@ app.coffeeList.add(c);</code></pre>
 <li>Now go have a coffee :-)</li>
 </ul>
 
+            </div>
+          
+        </div>
       </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -634,14 +608,6 @@ app.coffeeList.add(c);</code></pre>
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -677,5 +643,4 @@ app.coffeeList.add(c);</code></pre>
 
     </script>
   </body>
-
- </html>
+</html>

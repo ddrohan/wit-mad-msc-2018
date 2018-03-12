@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,140 +89,145 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      5: Google Services
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-08">
-      Lab-08
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="07">
-      07
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <a class="item" data-tab=".">
-      .
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          5: Google Services 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-08">
+            Lab-08
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="07">
+            07
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+          <a class="item" data-tab=".">
+            .
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-08">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-08">
+              <h1>Objectives</h1>
 <p>This lab is the final lab in the current version and completes our Case Study <b>CoffeeMate</b> with the introduction of <strong>Location Awareness</strong> and <strong>Google Maps</strong> in version <b>CoffeeMate.6.0</b>.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Setup - Starter Code</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Setup - Starter Code</h1>
 <p>Unlike previous labs, you don&#39;t need to download the starter code for this lab as it&#39;s basically a copy of CoffeeMate.5.0, so if you wish, you could just continue on with your own version. If you didn&#39;t get a chance to finish the previous lab you can download the CoffeeMate.5.0 solution here - <a href="archives/CoffeeMate.5.0.Solution.zip">CoffeeMate.5.0.Solution</a>.</p>
 <p>Either way, It&#39;s probably still a good idea to run the App and confirm that the app (our your app) is configured properly and (still) running.</p>
 <p>In this lab, you are required to do the following:</p>
@@ -256,10 +241,10 @@ body
 </ul>
 <p>The following steps will guide you through these requirements, but before we can do anything with the Google Maps, you need to obtain your own Google Maps Key to add to your manifest file.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>Obtaining your Google Maps Key</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Obtaining your Google Maps Key</h1>
 <p>First of all, you need to visit <a href="https://developers.google.com/maps/documentation/android-api/signup">Get an API Key</a> on the Android Developer site as it contains all the info you need to obtain your Key. You&#39;ll have some of the work done already (from the previous lab) but there&#39;s still a bit of work to do, so if you get stuck just ask!</p>
 <p>Once you have your key, the next thing to do is add the following to your strings.xml</p>
 <pre><code>&lt;string name=&quot;title_map&quot;&gt;Map&lt;/string&gt;
@@ -328,10 +313,10 @@ startActivity(new Intent(this, Map.class));
 <p><img src="img/lab0703.png" alt=""></p>
 <p>Congratulations - you can now go ahead and build map based apps!</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>View Users Current Location</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>View Users Current Location</h1>
 <p>At the moment, when the user selects the &#39;Map&#39; menu option, they get to see a standard map, but not their own location (or even their coffees locations), so this step (and the next) is about implementing that (we&#39;ll look at the coffees location in later steps).</p>
 <p>As we want to keep in line with the UI guidelines and approach, it makes sense to use a <i>Fragment</i> so first of all go ahead and create a new (Blank) Fragment called <strong>MapsFragment</strong> (NOT MapFragment) but DON&#39;T create a layout or include interface callbacks</p>
 <p>I used this link for some of the functionality we needed using the latest features of the Api (July 2017)</p>
@@ -577,10 +562,10 @@ return fragment;
 <p><img src="img/lab0707.png" alt=""></p>
 <p><img src="img/lab0708.png" alt=""></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>View Users Coffee Locations</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>View Users Coffee Locations</h1>
 <p>The last step in this lab involves displaying the users coffees on the map, along with the users location (which was the previous step) so we need to modify a few classes here, namely</p>
 <ul>
 <li>MapFragment</li>
@@ -607,10 +592,10 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
 <p>Before you run your app, I&#39;d suggest checking the Web App to confirm you have some coffees stored on the server and can view them on the Map in the Browser, so when you run your app, you know it&#39;s working correctly if you see your coffees - something like this</p>
 <p><img src="img/coffeemate.9.png" alt=""></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>Adding a Coffee - Refactored for Location Data</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>Adding a Coffee - Refactored for Location Data</h1>
 <p>Now that we can see existing coffees on our Map, what about when we add new coffees on the device, not the web app? This is the final step in our Case Study and involves a bit of work in refactoring our <strong>AddFragment</strong> as we need to grab the current location to save with our coffee details.</p>
 <p>And for fun :) we&#39;ll also embed our MapFragment inside the AddFragment layout, so we can see where we&#39;re adding our coffee, like so</p>
 <p><img src="img/coffeemate.10.png" alt=""></p>
@@ -855,10 +840,10 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
 <p><img src="img/coffeemate.10.png" alt=""></p>
 <p>Take some time to experiment with send different coordinates to the emulator, while you are on the Add Coffee screen, and you should see the map move to that new location - another example of how useful fragments can be!</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>Adding a Coffee - Updating the Map</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>Adding a Coffee - Updating the Map</h1>
 <p>Currently we can see the users coffees on a map even while we are on the &#39;Add a Coffee&#39; screen. Now let&#39;s look at updating that map with a newly added Coffee.</p>
 <p>First, open your add fragment and remove/comment out the intent to return &#39;Home&#39;, otherwise you&#39;ll never see the coffee marker being added.</p>
 <p>Now, update the coffee constructor fields to include the latitude and longitude values for the coffee being created and finally, try and implement the code necessary to update our map with the newly created coffee. This is actually a single line of code but refer to the lecture material if you&#39;re not sure.</p>
@@ -877,10 +862,10 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
     }</code></pre>
 <p>If you click on one of the markers you&#39;ve added from the device (not the webapp) you&#39;ll notice that the address field is blank. We need to convert our coordinates into a meaningful address for the user, so that&#39;s next.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="07">
-        <h1>Adding a Coffee - Reversing Geocoding</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="07">
+              <h1>Adding a Coffee - Reversing Geocoding</h1>
 <p>At this point when we add a new coffee, we can see it on the map instantly, but the address is empty if this is carried out on the device. To make sure the coffee address (as well as the other info) is stored correctly, we <strong>Reverse Geocode</strong> the location of the coffee into a meaningful street address and store that.</p>
 <p>Introduce the following method into your <strong>AddFragment</strong></p>
 <pre><code class="lang-java">private String getAddressFromLocation( Location location ) {
@@ -908,38 +893,27 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
 <p><img src="img/coffeemate.15.png" alt=""></p>
 <p>Hint : you&#39;ll have to make a few changes to the Coffee class as well as when you create the coffee before posting it to the server (Well that&#39;s how I did it anyway!)</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h1>Solution</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h1>Solution</h1>
 <p>This is a solution to the lab:</p>
 <ul>
 <li><a href="archives/CoffeeMate.6.0.Solution.zip">CoffeeMate.6.0.Solution</a></li>
 </ul>
 
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab=".">
+              
+            </div>
+          
+        </div>
       </div>
-     
-      <div  class="ui tab segment lab" data-tab=".">
-        
-      </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -959,14 +933,6 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -1002,5 +968,4 @@ CoffeeApi.getAll(&quot;/coffees/&quot; + app.googleToken, null);</code></pre>
 
     </script>
   </body>
-
- </html>
+</html>

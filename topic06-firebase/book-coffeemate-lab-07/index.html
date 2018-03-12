@@ -1,30 +1,22 @@
- <!DOCTYPE html>
- <html>
-   <head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-     
-
-     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-     <script>hljs.initHighlightingOnLoad();</script>
-
-     
-
-     <style>
-       
-
-body 
+body
 {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
 }
@@ -46,18 +38,6 @@ figcaption
   padding: 1rem 0;
   overflow: visible;
 }
-
-
-
-     </style>
-
-   </head>
-
-  <body>
-    
-
-<style>
-  
 
 code
 {
@@ -109,148 +89,153 @@ body
 
 
 
-</style>
+    </style>
+  </head>
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    <a href="../index.html">
-      6: Firebase
-    </a>
-  </header>
-  <div class="right tab-menu menu">
+  <body>
     
-    <a class="item" data-tab="Lab-09">
-      Lab-09
-    </a>
     
-    <a class="item" data-tab="01">
-      01
-    </a>
-    
-    <a class="item" data-tab="02">
-      02
-    </a>
-    
-    <a class="item" data-tab="03">
-      03
-    </a>
-    
-    <a class="item" data-tab="04">
-      04
-    </a>
-    
-    <a class="item" data-tab="05">
-      05
-    </a>
-    
-    <a class="item" data-tab="06">
-      06
-    </a>
-    
-    <a class="item" data-tab="07">
-      07
-    </a>
-    
-    <a class="item" data-tab="08">
-      08
-    </a>
-    
-    <a class="item" data-tab="09">
-      09
-    </a>
-    
-    <a class="item" data-tab="10">
-      10
-    </a>
-    
-    <a class="item" data-tab="Solution">
-      Solution
-    </a>
-    
-    <div class="item">
-      
+
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        <a href="../index.html">
+          6: Firebase 
+        </a>
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-09">
+            Lab-09
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="05">
+            05
+          </a>
+        
+          <a class="item" data-tab="06">
+            06
+          </a>
+        
+          <a class="item" data-tab="07">
+            07
+          </a>
+        
+          <a class="item" data-tab="08">
+            08
+          </a>
+        
+          <a class="item" data-tab="09">
+            09
+          </a>
+        
+          <a class="item" data-tab="10">
+            10
+          </a>
+        
+          <a class="item" data-tab="Solution">
+            Solution
+          </a>
+        
+        <div class="item">
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="ui segment pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
-          Lab-01
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
-          Lab-02
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
-          Lab-03
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
-          Lab-04
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
-          Lab-05-a
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
-          Lab-05-b
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
-          Lab-06
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
-          Lab-07
-        </a>
-      
-    
-      
-        <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
-          Lab-08
-        </a>
-      
-    
-      
-        <a class="active item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
-          Lab-09
-        </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment" id="labchat">
-      <br>
-      
-      <div  class="ui tab segment lab" data-tab="Lab-09">
-        <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-a-lab-01/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-overview-and-tools/book-coffeemate-lab-01/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-02/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-ui-design/book-coffeemate-lab-03/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-lab-04/index.html">
+              Lab-05-a
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-persistence/book-coffeemate-realm/index.html">
+              Lab-05-b
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-networking/book-retrofit-client/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-05/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-google-services/book-coffeemate-lab-06/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic06-firebase/book-coffeemate-lab-07/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-09">
+              <h1>Objectives</h1>
 <p>This lab &#39;takes a big step forward&#39;, in that we refactor the previous version (6.0) of our Case Study <b>CoffeeMate</b> and introduce <strong>Firebase Support</strong> via <strong>Google Authentication</strong> and a <strong>Realtime Database</strong> in version <b>CoffeeMateFBI.1.0</b></p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="01">
-        <h1>Setup - Starter Code</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Setup - Starter Code</h1>
 <p>It can be quite difficult to try and &#39;bolt on&#39; Firebase to an Android App, depending on the number and type of APis being used, but we can start with a version which does include a number of the Google APis that we need, namely <b>CoffeeMate.6.0</b>, which you can download here - <a href="archives/CoffeeMate.6.0.zip">CoffeeMate.6.0</a>.</p>
 <p>As always, It&#39;s probably still a good idea to run the App and confirm that the app (or your 6.0 version app) is configured properly and (still) running.</p>
 <p>You might also want to rename the app to what I will be referring to throughout the rest of the lab - <b>CoffeeMateFBI.1.0</b>.</p>
@@ -289,10 +274,10 @@ body
 apply plugin: &#39;com.google.gms.google-services&#39;</code></pre>
 <p>Once you have your project set up, you can continue on to the next step.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="02">
-        <h1>Signing In with Firebase Authentication</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Signing In with Firebase Authentication</h1>
 <p>First of all, make sure you have your Firebase Project set up and you&#39;ve added your existing CoffeeMate project to it, like so</p>
 <p><img src="img/labfb01.png" alt=""></p>
 <p>Notice I&#39;ve renamed the package to <strong>ie.cmfbi</strong> - there were a few issues when I initially set up the project with the existing <strong>ie.cm</strong> package name (which you might get too) like</p>
@@ -372,10 +357,10 @@ app.mFirebaseUser = null;
 Log.v(&quot;coffeemate&quot;, &quot;User Logged out of Firebase&quot;);</code></pre>
 <p>The next step will involving Adding coffees to our Firebase Realtime database.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="03">
-        <h1>Firebase CRUD - Add/Verify a User</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>Firebase CRUD - Add/Verify a User</h1>
 <p>Before you go any further, here&#39;s where we&#39;re at so far</p>
 <ul>
 <li><a href="archives/CoffeeMateFBI.1.0.sofar.zip">CoffeeMateFBI.1.0.sofar</a></li>
@@ -516,10 +501,10 @@ Toast.makeText(this,&quot;Unable to Validate Existing Firebase User:&quot;,Toast
 <p> <img src="img/labfb09.png" alt=""></p>
 <p> We can now verify a user against our database but more importantly, we can associate this user with a specific coffee when we add a coffee to our database - so that&#39;s next.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="04">
-        <h1>Firebase CRUD - Add a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>Firebase CRUD - Add a Coffee</h1>
 <p>At this point, we have to essentially &#39;break&#39; our app insofar as we need to change our <strong>Coffee</strong> model to allow us to store a user id with the coffee, when we add it to the firebase database.</p>
 <p>First of all, introduce the following property into the coffee models</p>
 <pre><code class="lang-java">public String uid;
@@ -593,10 +578,10 @@ public double longitude;</code></pre>
 <p><img src="img/labfb12.png" alt=""></p>
 <p>so the next step will be to retrieve these coffees from Firebase and display them in the list on the device.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="05">
-        <h1>Firebase CRUD - Get All Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="05">
+              <h1>Firebase CRUD - Get All Coffees</h1>
 <p>At the moment we can see our coffees being added on the Firebase console, but that&#39;s not of much use to the user, so this step will involve retrieving all of the users coffees.</p>
 <p>To leverage the realtime nature of our firebase database, we are going to make use of a <strong>FirebaseListAdapter</strong> which you can find out more about here <a href="https://github.com/firebase/FirebaseUI-Android/blob/master/README.md">https://github.com/firebase/FirebaseUI-Android/blob/master/README.md</a></p>
 <p>We will need to replace our current version of our custom list adapter with a version that extends the above. To use the latest version of the FirebaseUI project (as of July 2017) we need to make a few changes to our project and module gradle files.</p>
@@ -705,10 +690,10 @@ updateUI();</code></pre>
 <p>pretty cool I think :)</p>
 <p>On to the next step.....</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="06">
-        <h1>Firebase CRUD - Get Favourite Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="06">
+              <h1>Firebase CRUD - Get Favourite Coffees</h1>
 <p>At the moment we can see our coffees being added on the Firebase console, and see them displayed in our list in the app, so let&#39;s now start to refactor all the other features of the app, starting with a relatively simple job of displaying just the favourite coffees belonging to the user.</p>
 <p>First thing to do is open up your <strong>FBDBManager</strong> class and add the following method, to get our favourite coffees</p>
 <pre><code class="lang-java">public Query getFavouriteCoffees()
@@ -724,10 +709,10 @@ updateUI();</code></pre>
 <p>when you think it should be placed.</p>
 <p>Experiment with manually changing the &#39;favourite&#39; field on your console and see what happens when you&#39;re viewing your &#39;Favourites&#39;</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="07">
-        <h1>Firebase CRUD - Update a Coffee</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="07">
+              <h1>Firebase CRUD - Update a Coffee</h1>
 <p>Up to now, to see any changes/updates to our list of coffees we had to manually make those changes on the console. This step will involve allowing a coffee to be updated on the app and subsequently we&#39;ll be able to see those changes happen in realtime on our Firebase console.</p>
 <p>Similar to <strong>CoffeeMate.6.0</strong> we have to first retrieve the particular coffee from the server and then <strong>PUT</strong> in back so first, open your <strong>FBDBManager</strong> class and add the following</p>
 <pre><code class="lang-java">public void getACoffee(final String coffeeKey)
@@ -792,10 +777,10 @@ updateUI();</code></pre>
     }</code></pre>
 <p>and have a go at that too.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="08">
-        <h1>Firebase CRUD - Deleting Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="08">
+              <h1>Firebase CRUD - Deleting Coffees</h1>
 <p>This step involves two features</p>
 <ul>
 <li>deleting a single coffee and</li>
@@ -830,10 +815,10 @@ updateUI();</code></pre>
 <p>and you may find the following method useful?</p>
 <pre><code class="lang-java">listView.getChildAt()</code></pre>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="09">
-        <h1>Firebase CRUD - Searching &amp; Filtering Coffees</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="09">
+              <h1>Firebase CRUD - Searching &amp; Filtering Coffees</h1>
 <p>At the time of writing (July/2017) there is still no way to search Firebase like you would a normal relational Database using SQL LIKE etc. For reference though and if you fancy seeing if you can integrate any of the following, I found some useful links worth a looking</p>
 <p><a href="https://github.com/xdrop/fuzzywuzzy">https://github.com/xdrop/fuzzywuzzy</a></p>
 <p><a href="https://support.google.com/firebase/answer/6318765?hl=en">https://support.google.com/firebase/answer/6318765?hl=en</a></p>
@@ -916,10 +901,10 @@ updateUI();</code></pre>
 <p>If you wish, you can do some housekeeping on the entire project at this stage and remove the <strong>mSwipeRefreshLayout</strong> references, as we don&#39;t actually need it anymore due to the <strong>FirebaseUI</strong> api and the realtime nature of our database, but I&#39;ll leave it in the solution for reference.</p>
 <p>The last thing we need to do is make sure our Map is showing the correct marker locations, as currently we&#39;re still retrieving from the herokuapp server and not Firebase, so that&#39;s next.</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="10">
-        <h1>Firebase CRUD - Managing our Coffee Map</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="10">
+              <h1>Firebase CRUD - Managing our Coffee Map</h1>
 <p>Currently our <strong>MapsFragment</strong> is implementing the <em>VolleyListener</em> interface and requesting the list of coffees from the herokuapp server, so this step requires a refactoring of the interface to use, and the call we need to make to get our coffees from Firebase.</p>
 <p>First thing to do is add the following to your <strong>FBDBManager</strong></p>
 <pre><code class="lang-java">public void getAllCoffeesSnapshot()
@@ -954,34 +939,23 @@ updateUI();</code></pre>
 <p><img src="img/labfb21.png" alt=""></p>
 <p>All Done!!!</p>
 
-      </div>
-     
-      <div  class="ui tab segment lab" data-tab="Solution">
-        <h1>Solution</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solution">
+              <h1>Solution</h1>
 <p>This is a solution to the lab:</p>
 <ul>
 <li><a href="archives/CoffeeMateFBI.1.0.Solution.zip">CoffeeMateFBI.1.0.Solution</a></li>
 </ul>
 
+            </div>
+          
+        </div>
       </div>
-     
     </div>
-  </div>
-</div>
-<!--<div class="ui bottom fixed borderless right menu">
-  <div class="ui right tiny menu">
-    <div class="ui mini message segment">
-      .
-      <a href="http://creativecommons.org/licenses/by-nc/4.0/"
-         title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-         target="_blank">Creative Commons License
-      </a>
-    </div>
-  </div>
-</div>-->
 
-<script>
-  $(document).on('keydown', function(e) {
+    <script>
+      $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -1001,14 +975,6 @@ updateUI();</code></pre>
   }
 });
 
-</script>
-
-
-
-    <footer>
-
-    </footer>
-    <script>
       $(document).ready(function() {
   $('img').addClass('ui image');
 
@@ -1044,5 +1010,4 @@ updateUI();</code></pre>
 
     </script>
   </body>
-
- </html>
+</html>
